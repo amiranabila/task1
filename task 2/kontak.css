@@ -37,7 +37,7 @@ textarea{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-button{
+.submit-contact {
     background-color: black;
     color: white;
     border-radius: 30px;

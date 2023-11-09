@@ -26,25 +26,27 @@
              <h1>GET IN TOUCH</h1>
 
             <label >Name</label>
-            <input type="text" >
+            <input type="text" id="inputName" >
             <label >Email</label>
-            <input type="text">
+            <input type="text" id="inputEmail">
             <label >Phone Number</label>
-            <input type="text">
+            <input type="text" id="inputPhone">
             <label >Subject</label>
-            <select >
-                <option value="">Frontend</option>
-                <option value="">Backend</option>
-                <option value="">Fullstack</option>
+            <select id="inputSubject">
+                <option ></option>
+                <option >Frontend</option>
+                <option >Backend</option>
+                <option >Fullstack</option>
                 
             </select>
             <label >Your messege</label>
-            <textarea name="" id="" cols="45" rows="5"></textarea>
-            <button>Submit</button>
+            <textarea name="" id="inputMessage" cols="45" rows="5"></textarea>
+            <input type="button" value="Submit" class="submit-contact" onclick="submitData()" />
             </form>
             
 
 
         </div>
+        <script src="contact.js"></script>
     </body>
 </html>
